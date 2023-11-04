@@ -1,0 +1,13 @@
+.tag {
+  padding: 4px 6px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.20);
+  background-color: transparent;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.selectTag {
+  border: 1px solid #6A28EA;
+  background: #FAF6FD;
+}
