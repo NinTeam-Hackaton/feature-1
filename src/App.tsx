@@ -1,10 +1,12 @@
 import { LayoutRoot } from "./layout";
-import { SidebarComponent } from "./components";
+import { SidebarComponent, ComponentsLibrary } from "./components";
+
 function App() {
   return (
-    <LayoutRoot>
+    <>
       <SidebarComponent />
-    </LayoutRoot>
+      <ComponentsLibrary />
+    </>
   );
 }
 

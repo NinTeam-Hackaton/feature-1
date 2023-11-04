@@ -1,9 +1,15 @@
+import { FC } from "react";
+import clsx from "clsx";
 import { CiSearch } from "react-icons/ci";
 import styles from "./index.module.css";
 
-const Search = () => {
+type SearchPorps = {
+  className?: string;
+};
+
+const Search: FC<SearchPorps> = ({ className }) => {
   return (
-    <label className={styles.label}>
+    <label className={clsx(styles.label, className)}>
       <CiSearch size={24} />
       <input
         placeholder="Search any component"
