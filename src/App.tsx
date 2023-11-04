@@ -1,6 +1,13 @@
+import { LayoutRoot } from "./layout";
+import { SidebarComponent, ComponentsLibrary } from "./components";
 
 function App() {
-  return <div ></div>;
+  return (
+    <>
+      <SidebarComponent />
+      <ComponentsLibrary />
+    </>
+  );
 }
 
 export default App;
