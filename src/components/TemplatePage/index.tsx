@@ -12,12 +12,7 @@ const TemplateWelcomeToTest = () => {
         <span className={styles.textWithWave}>
           <span className={styles.wave}>👋 </span> TEMPLATE - Welcome to test
         </span>
-        <div className={styles.wrapperButtons}>
-          <button></button>
-          <button></button>
-          <button></button>
-          <button></button>
-        </div>
+        <div className={styles.wrapperButtons}></div>
       </div>
       <span className={styles.owned}>
         Owned By <span className={styles.testTest}>test test</span>

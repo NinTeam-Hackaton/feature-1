@@ -45,7 +45,6 @@ const ListPages = () => {
       <li className={styles.wrapperItem}>
         <p className={styles.textEnter}>Enter topic or a test name</p>
         <div className={styles.wrapperAction}>
-          {/* <button></button> */}
           <Link to={"/create-page"} className={styles.createButton}>
             Create
           </Link>
