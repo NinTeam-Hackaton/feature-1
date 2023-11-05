@@ -1,0 +1,44 @@
+.item {
+  color: #2A2A2A;
+  font-size: 14.2px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.wrapperItem {
+  padding: 20px 24px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapperFiles { 
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+  margin-left: 40px;
+}
+
+.wrapperAction {
+  display: flex;
+  align-items: center;
+}
+
+.steps {
+  color: #8E8E8E;
+  font-size: 14.2px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.buttonDots {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
