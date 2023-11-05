@@ -4,10 +4,8 @@ import { Tag } from "../Tag";
 import { buttons } from "./index.mock";
 import styles from "./index.module.css";
 
-const RadioButtonComponents = () => {
-  const [selectedOption, setSelectedOption] = useState<string | null>(
-    "componentF"
-  );
+const RadioButtonComponents = ({ setElement }: any) => {
+  const [selectedOption, setSelectedOption] = useState<string | null>(null);
   const handleOptionChange = (event: ChangeEvent<HTMLInputElement>) => {
     setSelectedOption(event.target.value);
   };
@@ -27,7 +25,10 @@ const RadioButtonComponents = () => {
               name={"component"}
               value={button.value}
               checked={selectedOption === button.value}
-              onChange={handleOptionChange}
+              onChange={(event) => {
+                setElement(button.elements);
+                handleOptionChange(event);
+              }}
               className={styles.customRadioInput}
             />
             {button.name}

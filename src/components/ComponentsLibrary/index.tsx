@@ -43,7 +43,7 @@ const LibraryCreate = () => {
         <p className={styles.createComponentText}>
           Create a new <br /> component
         </p>
-        <Link to={"/create-components"} className={styles.button}>
+        <Link to={"/create-page"} className={styles.button}>
           Create
         </Link>
       </div>
