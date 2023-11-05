@@ -8,12 +8,20 @@ import { RadioButtonComponents } from "../RadioButtonComponents";
 import { tags } from "./index.mock";
 import styles from "./index.module.css";
 
-type SidebarComponentProps = PropsWithChildren & {};
+type SidebarComponentProps = PropsWithChildren & any;
 
-const SidebarComponent: FC<SidebarComponentProps> = ({ children }) => {
+const SidebarComponent: FC<SidebarComponentProps> = ({
+  children,
+  setElement,
+}) => {
+  const [htmlElement, setHtmlElement] = useState(null);
   const [isOpen, setIsOpen] = useState(false);
   const toggleButton = () => {
     setIsOpen((currentOpen) => !currentOpen);
+  };
+
+  const handleClick = () => {
+    setElement(htmlElement);
   };
 
   return (
@@ -40,9 +48,15 @@ const SidebarComponent: FC<SidebarComponentProps> = ({ children }) => {
               return <Tag key={tag.id} tag={tag} />;
             })}
           </div>
-          <RadioButtonComponents />
+          <RadioButtonComponents setElement={setHtmlElement} />
         </div>
-        <button className={styles.buttonPaste}>Paste</button>
+        <button
+          disabled={!htmlElement}
+          onClick={handleClick}
+          className={styles.buttonPaste}
+        >
+          Paste
+        </button>
       </div>
     </div>
   );
