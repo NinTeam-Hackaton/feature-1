@@ -9,6 +9,7 @@ use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\Routing\Annotation\Route;
 
 use App\Entity\Widget;
@@ -19,7 +20,16 @@ class PageController extends AbstractController
     #[Route('/', name: 'app_page_index', methods: ['GET'])]
     public function index(PageRepository $pageRepository): Response
     {
-        return $this->render('page/index.html.twig', [
+//        return $this->render('page/index.html.twig', [
+        return $this->render('page/list.html.twig', [
+            'pages' => $pageRepository->findAll(),
+        ]);
+    }
+
+    #[Route('/json', name: 'app_page_index_json', methods: ['GET'])]
+    public function indexJson(PageRepository $pageRepository): JsonResponse
+    {
+        return $this->json([
             'pages' => $pageRepository->findAll(),
         ]);
     }
