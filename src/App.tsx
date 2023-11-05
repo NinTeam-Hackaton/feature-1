@@ -1,12 +1,12 @@
-import { LayoutRoot } from "./layout";
-import { SidebarComponent, ComponentsLibrary } from "./components";
+import React from "react";
+import { BrowserRouter } from "react-router-dom";
+import { Router } from "./router";
 
 function App() {
   return (
-    <>
-      <SidebarComponent />
-      <ComponentsLibrary />
-    </>
+    <BrowserRouter>
+      <Router />
+    </BrowserRouter>
   );
 }
 
