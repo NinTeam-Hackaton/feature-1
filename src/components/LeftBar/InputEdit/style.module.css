@@ -1,0 +1,38 @@
+.InputSelectItem {
+  width: 132px;
+  border: 1px solid rgb(227, 227, 227);
+  border-radius: 100px;
+  font-weight: 400;
+  background-color: rgb(249, 249, 249);
+  color: rgb(42, 42, 42);
+  cursor: pointer;
+  padding: 8px;
+}
+.InputSelectItem_Wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.Icon {
+  font-size: 20px;
+}
+.Icon_Arrow {
+  font-size: 25px;
+}
+.Status_Color {
+  width: 20px;
+  height: 20px;
+  background-color: #06c6a3;
+  border-radius: 50%;
+}
+.Status {
+  color: rgb(42, 42, 42);
+  font-weight: 500;
+  font-size: 0.889rem;
+  line-height: 1.125rem;
+}
+.NameSelect {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 5px;
+}
