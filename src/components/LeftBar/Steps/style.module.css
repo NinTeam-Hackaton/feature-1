@@ -1,0 +1,27 @@
+.Steps_Title {
+  margin: 0 0 4px 24px;
+  font-weight: 600;
+  font-size: 0.889rem;
+  line-height: 1.125rem;
+}
+.NewStep {
+  display: inline-block;
+  border: 2px solid #8e5eec;
+  background-color: transparent;
+  color: #8e5eec;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 100px;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+  font-size: 0.889rem;
+  line-height: 1.125rem;
+  padding: 6px 30px;
+  font-size: 16px;
+  margin: 10px 80px;
+}
+.NewStep:hover {
+  background-color: #8e5eec;
+  color: #fff;
+  border-color: transparent;
+}
