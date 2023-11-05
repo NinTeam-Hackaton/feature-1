@@ -1,0 +1,44 @@
+.HeaderProfile {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.AddButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #6a28ea;
+}
+.Profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #aaaaaa;
+}
+.Service {
+  font-size: 28px;
+  display: flex;
+  gap: 5px;
+}
+.Service span {
+  display: flex;
+}
+.Profile_Service {
+  display: flex;
+  gap: 10px;
+}
+.Service span {
+  cursor: pointer;
+}
+.Profile_Service div {
+  cursor: pointer;
+}

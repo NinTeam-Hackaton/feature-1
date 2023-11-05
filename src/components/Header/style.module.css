@@ -1,0 +1,12 @@
+.Header {
+  width: 100%;
+  margin-top: 20px;
+  border-bottom: 1px solid #f1f1f1;
+  padding-bottom: 15px;
+}
+.Header_Wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 900px;
+}
