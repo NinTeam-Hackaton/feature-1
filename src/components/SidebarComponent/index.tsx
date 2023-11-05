@@ -26,7 +26,7 @@ const SidebarComponent: FC<SidebarComponentProps> = ({
 
   return (
     <div
-      className={clsx(styles.wrapperSidebar, { [styles.sidebarOpen]: isOpen })}
+      className={clsx(styles.wrapperSidebar, { [styles.sidebarOpen]: true })}
     >
       <div className={styles.containerSidebar}>
         <div className={styles.wrraperContent}>

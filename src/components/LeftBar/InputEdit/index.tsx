@@ -3,7 +3,7 @@ import s from "./style.module.css";
 
 const InputEdit = () => {
   return (
-    <Link to="/" className={s.Status}>
+    <Link to="/view-page" className={s.Status}>
       View Mode
     </Link>
   );

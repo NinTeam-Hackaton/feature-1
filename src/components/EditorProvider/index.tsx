@@ -69,7 +69,7 @@ const Editor = ({ content, setContent, element, isViewPage }: any) => {
         hover effects, but you can use it for other purposes too.
         <div
           className={clsx(
-            { ["placeholder"]: isViewPage },
+            { ["placeholder"]: !isViewPage },
             { ["hidden"]: !element }
           )}
         >
