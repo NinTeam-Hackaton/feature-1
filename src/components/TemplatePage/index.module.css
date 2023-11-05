@@ -35,6 +35,8 @@
   gap: 8px;
   height: 36px;
   cursor: pointer;
+  text-decoration: none;
+  box-sizing: border-box;
 }
 
 .contaoinerNav {

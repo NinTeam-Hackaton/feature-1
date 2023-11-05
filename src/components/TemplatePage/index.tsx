@@ -1,5 +1,6 @@
 import React from "react";
 import { BiChevronRight } from "react-icons/bi";
+import { Link } from "react-router-dom";
 import { ListPages } from "../ListPages";
 import { IconWave } from "../IconWave";
 import styles from "./index.module.css";
@@ -40,7 +41,10 @@ const TemplatePage = () => {
             👋 TEMPLATE - Welcome to test
           </span>
         </div>
-        <button className={styles.contentBlockLibraryButton}>
+        <Link
+          to={"components-library"}
+          className={styles.contentBlockLibraryButton}
+        >
           Content block library
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -54,7 +58,7 @@ const TemplatePage = () => {
               fill="#6A28EA"
             />
           </svg>
-        </button>
+        </Link>
       </div>
       <TemplateWelcomeToTest />
       <ListPages />
