@@ -1,4 +1,5 @@
-import { PropsWithChildren, FC } from "react";
+import React, { PropsWithChildren, FC } from "react";
+import { Link } from "react-router-dom";
 import { FiFilter } from "react-icons/fi";
 import { LuArrowDownUp } from "react-icons/lu";
 import clsx from "clsx";
@@ -42,7 +43,9 @@ const LibraryCreate = () => {
         <p className={styles.createComponentText}>
           Create a new <br /> component
         </p>
-        <button className={styles.button}>Create</button>
+        <Link to={"/create-components"} className={styles.button}>
+          Create
+        </Link>
       </div>
     </div>
   );
