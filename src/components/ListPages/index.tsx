@@ -16,7 +16,7 @@ const Item = ({ name }: any) => {
       </div>
       <div className={styles.wrapperAction}>
         <span className={styles.steps}>8 steps</span>
-        <Link className={styles.link} to={"/edit-test"}>
+        <Link className={styles.link} to={"/edit-page"}>
           <FaEdit />
         </Link>
       </div>
