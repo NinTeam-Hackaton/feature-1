@@ -1,0 +1,75 @@
+.item {
+  color: #2A2A2A;
+  font-size: 14.2px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.wrapperItem {
+  padding: 14px 24px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapperFiles { 
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+  margin-left: 40px;
+}
+
+.wrapperAction {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.steps {
+  color: #8E8E8E;
+  font-size: 14.2px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.buttonDots {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.createButton {
+  border-radius: 100px;
+  border: 1px solid #6A28EA;
+  background-color: #6A28EA;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  padding: 9px 31px;
+  max-width: 112px;
+  width: 100%;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 14.2px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; 
+}
+
+.textEnter {
+  color: #757575;
+  font-size: 13.3px;
+  font-weight: 400;
+}
+
+.wrapperList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}

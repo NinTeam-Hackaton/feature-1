@@ -1,0 +1,91 @@
+.wrapperSidebar {
+  height: 100%;
+  border-right: 1px solid  #F1F1F1;
+  background-color:  #FFF;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+  transition: 0.3s;
+  z-index: 1;
+  transform: translateX(260px);
+}
+
+.containerSidebar {
+  width: 320px;
+  padding: 24px;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.wrraperContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.sidebarOpen {
+  transform: translateX(0px);
+
+}
+
+.buttonToggle { 
+  border: none;
+  border-radius: 50%;
+  padding: 7px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+  background-color: #fff;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 40px;
+  left: -15px;
+}
+
+.title {
+  color: #2A2A2A;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.99px;
+}
+
+.upText {
+  color: #737373;
+  font-size: 12.6px;
+  font-weight: 400;
+  line-height: 16px;
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.resetAll {
+  color: #000;
+  font-size: 14.2px;
+  font-weight: 400;
+  line-height: 18px; /* 126.761% */
+  text-decoration-line: underline;
+  border: none;
+  background-color: transparent;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.wrapperTags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.buttonPaste {
+  border-radius: 100px;
+  border: 1px solid #6A28EA;
+  background-color: #6A28EA;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  padding: 9px 0px;
+  cursor: pointer;
+}
