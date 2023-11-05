@@ -1,13 +1,12 @@
-import { Routes, Route } from "react-router-dom";
-import { LeftBar } from "./components/LeftBar";
+import React from "react";
+import { BrowserRouter } from "react-router-dom";
+import { Router } from "./router";
 
 function App() {
   return (
-    <div className="App">
-      <Routes>
-        <Route path="/" element={<LeftBar />} />
-      </Routes>
-    </div>
+    <BrowserRouter>
+      <Router />
+    </BrowserRouter>
   );
 }
 

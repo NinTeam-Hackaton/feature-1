@@ -1,0 +1,38 @@
+
+.customRadioLabel {
+  cursor: pointer;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  box-sizing: border-box;
+}
+
+.customRadioInput {
+  display: none;
+}
+
+.customRadioInputChecked {
+  border: 1px solid #007bff;
+}
+
+.radioButtonComponentsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  width: 120px;
+  height: 110px;
+  border-radius: 8px;
+  background-color: #a6a6a6;
+}
+
+.wrapperComponents {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 5px;
+}
+
