@@ -3,9 +3,9 @@ import { FC, PropsWithChildren } from "react";
 import { SidebarComponent } from "../../components";
 import styles from "./index.module.css";
 
-type LayoutRootPorps = PropsWithChildren & {};
+type LayoutRootProps = PropsWithChildren & {};
 
-const LayoutRoot: FC<LayoutRootPorps> = ({ children }) => {
+const LayoutRoot: FC<LayoutRootProps> = ({ children }) => {
   return (
     <>
       <SidebarComponent />
