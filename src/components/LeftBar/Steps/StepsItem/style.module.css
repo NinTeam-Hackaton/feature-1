@@ -1,0 +1,34 @@
+.StepsItem {
+  min-height: 2.75rem;
+  display: flex;
+  padding: 0 24px;
+  justify-content: space-between;
+}
+.StepsItem:hover {
+  cursor: pointer;
+}
+.StepsItem_Body {
+  display: flex;
+  gap: 8px;
+}
+.StepTitle {
+  display: flex;
+  align-items: center;
+}
+.StepTitle:hover {
+  font-weight: 550;
+}
+.Icon {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+}
+.Dots {
+  display: none;
+  align-items: center;
+  font-size: 25px;
+  margin-left: 50px;
+}
+.StepsItem:hover .Dots {
+  display: flex;
+}

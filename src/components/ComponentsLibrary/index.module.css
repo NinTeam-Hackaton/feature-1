@@ -54,6 +54,7 @@
   max-width: 112px;
   width: 100%;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .libraryCreate {

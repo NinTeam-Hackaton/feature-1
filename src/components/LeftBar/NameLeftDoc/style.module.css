@@ -1,0 +1,31 @@
+.NameLeftDoc {
+  padding-top: 50px;
+}
+.CenterContent {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.Icon_Background{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  background-color: #f9f9f9;
+  border-radius: 50%;
+}
+.Icon {
+  font-size: 40px;
+}
+.LeftDocName {
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(42, 42, 42);
+}
+.DocTimeReading {
+  color: rgb(142, 142, 142);
+}
