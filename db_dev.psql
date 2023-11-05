@@ -1,0 +1,5 @@
+\connect postgres
+drop database piranha_dev;
+create database piranha_dev;
+\connect piranha_dev
+CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
