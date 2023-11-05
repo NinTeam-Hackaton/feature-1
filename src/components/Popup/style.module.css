@@ -1,0 +1,80 @@
+.PopupBlur {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(196, 196, 196, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.Popup {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 250px;
+  padding: 40px;
+  background-color: white;
+  z-index: 200;
+}
+.CloseButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: #000;
+}
+.Popup_Body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 24px;
+}
+.Popup_Body_Title {
+  font-size: 19.927px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25.337px;
+}
+.Popup_Body_Warning {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.Popup_Buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  gap: 24px;
+}
+.Popup_Button {
+  display: inline-flex;
+  padding: 9px 50px;
+  border: 1px solid #6a28ea;
+  color: #6a28ea;
+  border-radius: 100px;
+}
+.Popup_Button_Return {
+  display: inline-flex;
+  padding: 9px 50px;
+  background-color: #6a28ea;
+  color: white;
+  border-radius: 100px;
+}
+.Popup_Buttons div:hover {
+  cursor: pointer;
+}
